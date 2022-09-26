@@ -1,0 +1,20 @@
+@media only screen and (min-width: 811px){
+    .container{
+        max-width: 1200px;
+        width: 100%;
+    }
+    
+    .box-fr{
+        display: flex;
+    }
+    
+    .box-fr .col{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .box-fr .col .card{
+        width: calc(100% / 3 - 20px);
+    }
+}

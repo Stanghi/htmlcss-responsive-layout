@@ -41,14 +41,11 @@
     
     .box-fr .col{
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     .box-fr .col .card{
-        width: 49%;
-        
+        width: calc(100% / 2 - 10px);
     }
-
-
 }
