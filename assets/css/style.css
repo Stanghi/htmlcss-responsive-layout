@@ -201,6 +201,42 @@ main .second-region{
     object-fit: cover;
     border-radius: 50%;
 }
+
+/* -----FOURTH-REGION----- */
+.fourth-region{
+    background-color: #9792E4;
+    padding: 0 35px;
+}
+
+.fourth-region h2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.fourth-region .card h3{
+    color: #9792E4;
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+
+.fourth-region .card h4{
+    color: #9792E4;
+    font-size: 1.7rem;
+    padding-bottom: 25px;
+}
+
+.fourth-region .card p{
+    color: #8C8C8C;
+    padding-bottom: 25px;
+}
+
+.fourth-region .card .btn{
+    width: 50%;
+    margin: 0;
+}
 /* ----------END MAIN ----------*/
 
 /* ----------FOOTER---------- */
