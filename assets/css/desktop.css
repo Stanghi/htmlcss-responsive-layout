@@ -17,4 +17,8 @@
     .box-fr .col .card{
         width: calc(100% / 3 - 20px);
     }
+
+    .planning1-img{
+        width: 400px;
+    }
 }
