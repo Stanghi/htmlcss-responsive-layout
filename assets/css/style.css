@@ -11,7 +11,7 @@ body{
 
 /* ----------UTILITY------------ */
 .debug{
-    background-color: rgba(255, 0, 0, .5);
+    /* background-color: rgba(255, 0, 0, .5); */
     border: 1px solid black;
 }
 
@@ -23,12 +23,23 @@ body{
 }
 
 .card{
-    background-color: #B5DDFF;
     border-radius: 25px;
     padding: 0 30px;
     padding-top: 40px;
     margin-bottom: 25px;
     color: #647b8e; 
+}
+
+.card-text-center{
+    text-align: center;
+}
+
+.card-lblue{
+    background-color: #B5DDFF;
+}
+
+.card-light{
+    background-color: #ffffff;
 }
 
 .btn{
@@ -69,6 +80,7 @@ header i{
 /* ----------END HEADER---------- */
 
 /* ----------MAIN---------- */
+/* -----FIRST-REGION----- */
 main .first-region{
     padding: 50px 30px;
 }
@@ -89,6 +101,35 @@ main .first-region{
     width: 195px;
     display: block;
     margin: auto;
+}
+
+/* -----SECOND-REGION----- */
+main .second-region{
+    background-color: #9792e4;
+    color: #FFFFFF;
+    padding: 0 30px;
+}
+
+.planning1-img{
+    padding-top: 70px;
+    width: 310px;
+    display: block;
+    margin: auto;
+    padding-bottom: 95px;
+}
+
+.second-region h2{
+    font-size: 2rem;
+    padding-bottom: 55px;
+}
+
+.second-region p{
+    font-size: 1.1rem;
+    padding-bottom: 35px;
+}
+
+.second-region .card{
+    text-align: center;
 }
 /* ----------END MAIN ----------*/
 
