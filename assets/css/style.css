@@ -20,8 +20,26 @@
 
 /* ----------HEADER---------- */
 header{
+    display: flex;
+    align-items: center;
     background-color: #0084FD;
+    color: #FFFFFF;
     height: 75px;
+}
+
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+header img{
+    width: 80px;
+}
+
+header i{
+    font-size: 1.8rem;
 }
 /* ----------END HEADER---------- */
 
