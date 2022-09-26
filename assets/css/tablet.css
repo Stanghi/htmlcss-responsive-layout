@@ -1,0 +1,22 @@
+@media only screen and (min-width: 480px) {
+    .container{
+        max-width: 810px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .first-region .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .first-region .row .f-box1{
+        width: calc(100% / 1.5 - 20px);
+        margin: 10px;
+    }
+
+    .first-region .row .card{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+    }
+}
