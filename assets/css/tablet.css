@@ -1,4 +1,4 @@
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
     .container{
         max-width: 810px;
         margin: 0 auto;
@@ -23,5 +23,15 @@
     .planning1-img{
         width: 100%;
         padding-top: 125px;
+    }
+
+    .card-violet{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card-violet .circle-img{
+        margin-right: 30px;
     }
 }
