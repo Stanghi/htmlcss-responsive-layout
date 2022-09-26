@@ -12,8 +12,17 @@
 }
 
 /* ----------COMPONENTS---------- */
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 /* ----------HEADER---------- */
+header{
+    background-color: #0084FD;
+    height: 75px;
+}
 /* ----------END HEADER---------- */
 
 /* ----------MAIN---------- */
