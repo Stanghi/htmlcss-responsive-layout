@@ -64,11 +64,6 @@ body{
     font-weight: bold;
 }
 
-.btn-header{
-    background-color: #FFFFFF;
-    padding: 15px 20px;
-}
-
 .btn-blue{
     padding: 15px 50px;
     text-align: center;
@@ -82,6 +77,10 @@ body{
     height: 50px;
     border-radius: 50%;
     background-color: #9792E4;
+}
+
+.prova{
+    background-color: red;
 }
 /* ----------HEADER---------- */
 header{
