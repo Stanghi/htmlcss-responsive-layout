@@ -64,6 +64,11 @@ body{
     font-weight: bold;
 }
 
+.btn-header{
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+}
+
 .btn-blue{
     padding: 15px 50px;
     text-align: center;
@@ -87,11 +92,15 @@ header{
     height: 75px;
 }
 
-header .nav{
+header .nav-1{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+}
+
+header .nav-2{
+    display: none;
 }
 
 header img{
